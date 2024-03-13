@@ -1,0 +1,22 @@
+#profilepic {
+    height: 15em;
+    width: 15em;
+}
+
+.TitleCard {
+    display: flex;
+    border: 2px solid black;
+}
+
+.AboutMe {
+    padding-left: 1em;
+}
+
+.Content {
+    width: 70%;
+    margin: auto;
+}
+
+h1, h3{
+    margin: .05em;
+}
