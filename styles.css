@@ -1,22 +1,41 @@
 #profilepic {
     height: 15em;
     width: 15em;
+    padding: 1em;
+    border-radius: 50%;
 }
 
 .TitleCard {
     display: flex;
-    border: 2px solid black;
+    background-color: rgb(33,38,45);
+    padding: 2rem 0;
+    border-radius: 6px;
+    border: 1px solid #8f8f8f;
 }
 
 .AboutMe {
-    padding-left: 1em;
+    padding: 1em;
 }
 
 .Content {
-    width: 70%;
+    width: 80%;
     margin: auto;
 }
 
 h1, h3{
     margin: .05em;
+}
+
+body {
+    color: rgb(217, 237, 243);
+    background-color: rgb(13, 17, 23);
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Noto Sans", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
+}
+
+.Project {
+    padding: 2em 0 2em 3em;
+}
+
+.Projects{
+    padding-top: 2em;
 }
